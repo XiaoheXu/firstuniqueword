@@ -1,0 +1,9 @@
+com\chris\uniqueword\Worker.class
+com\chris\uniqueword\info\WordInfo.class
+com\chris\uniqueword\info\StopCommand.class
+com\chris\uniqueword\MainServer.class
+com\chris\uniqueword\info\WordsContainer.class
+com\chris\uniqueword\info\StatisticsData.class
+com\chris\uniqueword\WordsBuilder.class
+com\chris\uniqueword\info\StartCommand.class
+com\chris\uniqueword\info\ACK.class
