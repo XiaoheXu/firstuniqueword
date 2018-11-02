@@ -17,7 +17,10 @@ import java.util.*;
  * @author chris xu 2018/08/08.
  */
 public class MainServer extends AbstractActor {
+    // 先将统计结果放在map中，最后再去重
     private HashMap<String, WordInfo> map = new HashMap<>();
+    // 每100 个单词算作一行，作为一个任务。
+    // 如果一个单词平均6个单词，6*2=12个字节。 100GB/12字节 = 8738133 int够用
     private int lineNo = 0;
     private WordsBuilder wordsBuilder;
 
@@ -42,12 +45,8 @@ public class MainServer extends AbstractActor {
     public Receive createReceive() {
         ReceiveBuilder builder = receiveBuilder();
         return builder
-                .match(StartCommand.class, s -> {
-                    start();
-                })
-                .match(ACK.class, ack -> {
-                    sendData(getSender());
-                })
+                .match(StartCommand.class, s -> start())
+                .match(ACK.class, ack -> sendData(getSender()))
                 .match(StatisticsData.class, data -> {
                     sum(data);
                     if (workers.size() == 0) {

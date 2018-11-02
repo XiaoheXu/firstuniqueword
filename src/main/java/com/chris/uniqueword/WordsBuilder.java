@@ -1,14 +1,14 @@
 package com.chris.uniqueword;
 
-import sun.awt.image.BufferedImageDevice;
-
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * 实现队列，为了满足读取和发送数据的需要，将数据
+ * 实现队列，内部使用NIO读取文件，将文件构建成一个单词队列
+ * 内部记录着现在文件读到的位置，每次在发送数据是，只需要调用getWords
+ * 方法就可以获取100 个单词。
  *
  * @author chris xu 2018/08/09.
  */
