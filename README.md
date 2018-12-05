@@ -1,4 +1,4 @@
-# firstuniqueword
+# first unique word
 基于akka实现从较大文件（GB）中搜索出第一个只出现一次的字符：
 
 主要思路：
