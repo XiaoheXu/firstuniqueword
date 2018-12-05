@@ -7,8 +7,6 @@ import akka.japi.pf.ReceiveBuilder;
 import com.chris.uniqueword.info.*;
 
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
 
 /**
  * 负责分析主节点发送来的word进行分析
@@ -32,12 +30,8 @@ public class Worker extends AbstractActor {
     public Receive createReceive() {
         ReceiveBuilder builder = receiveBuilder();
         return builder
-                .match(WordsContainer.class, container -> {
-                    statistics(container);
-                })
-                .match(StopCommand.class, command -> {
-                    sendStatistcs();
-                }).build();
+                .match(WordsContainer.class, container -> statistics(container))
+                .match(StopCommand.class, command -> sendStatistcs()).build();
     }
 
     /**

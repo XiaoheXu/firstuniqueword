@@ -37,13 +37,14 @@ public class WordsBuilder {
         file = new RandomAccessFile(path, "rw");
         fileLen = file.length();
         channel = file.getChannel();
-        buffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, fileLen);
+        buffer = channel.map(FileChannel.MapMode.READ_ONLY, 0, fileLen);
     }
 
     /**
      * 文件读取的索引位置
      */
     private int index = 0;
+
     /**
      * 用来构建单词
      */
@@ -73,8 +74,6 @@ public class WordsBuilder {
 
         return words;
     }
-
-
 
     public void close() throws IOException {
         buffer.force();

@@ -17,15 +17,15 @@ public class Main {
     @Test
     public void main() {
         ActorSystem system = ActorSystem.create("bigFile");
-        Map<String,ActorRef> workers = new HashMap<>();
+        Map<String, ActorRef> workers = new HashMap<>();
 
         try {
             // 创建主节点
             ActorRef mainServer = system.actorOf(MainServer.props(workers), "mainServer");
             // 创建worker节点
-            for (int i = 0; i < 100; i ++) {
+            for (int i = 0; i < 100; i++) {
                 ActorRef worker = system.actorOf(Worker.props(mainServer));
-                workers.put(worker.toString(),worker);
+                workers.put(worker.toString(), worker);
             }
             // 开始
             mainServer.tell(new StartCommand(), ActorRef.noSender());
