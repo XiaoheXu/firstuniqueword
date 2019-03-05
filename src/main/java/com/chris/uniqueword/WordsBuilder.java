@@ -26,7 +26,7 @@ public class WordsBuilder {
     /**
      * 文件路径
      */
-    private String path = "D:\\bigFile\\text.log";
+    private String path = "E:\\programs\\github\\firstuniqueword\\src\\test\\java\\com\\chris\\uniqueword\\log.txt";
     private RandomAccessFile file;
     private long fileLen;
     private FileChannel channel;
