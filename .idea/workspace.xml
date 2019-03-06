@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6410c62-63e1-4c17-bb03-3bda53b79402" name="Default" comment="修改注解">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b6410c62-63e1-4c17-bb03-3bda53b79402" name="Default" comment="添加测试文本">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/CuratorClientFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chris/uniqueword/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chris/uniqueword/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/MainServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/WordsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/WordsBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/info/StatisticsData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/info/StatisticsData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/info/WordInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chris/uniqueword/info/WordInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/chris/uniqueword/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chris/uniqueword/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+            <state relative-caret-position="93">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,49 +57,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java">
+        <entry file="jar://$PROJECT_DIR$/../../repos/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/japi/pf/UnitCaseStatement.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="303">
+              <caret line="151" selection-start-line="151" selection-end-line="151" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#5576#5577#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/ACK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordsContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StartCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -96,8 +71,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/chris/uniqueword/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="21" column="5" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/chris/uniqueword/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="132" selection-start-column="121" selection-end-column="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,35 +114,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StopCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-              <folding>
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="456">
+              <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -148,6 +140,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>article</find>
+      <find>For</find>
+      <find>1922</find>
+      <find>Error</find>
+      <find>(Chairman)</find>
+      <find>Broadcasting</find>
+      <find>abbreviated</find>
+      <find>开始去重</find>
+      <find>wordsCount</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -160,18 +165,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StopCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordsContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/ACK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/ByteContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lightbend/akka/sample/AkkaQuickstart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/Start.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordInfo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/chris/uniqueword/log.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/ZKClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/CuratorClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/DistributedCountDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/CuratorClientFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/chris/uniqueword/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordInfo.java" />
       </list>
     </option>
   </component>
@@ -217,8 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,28 +292,32 @@
             </path>
             <path>
               <item name="firstuniqueword" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstuniqueword" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551793713914" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551886768169" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.chris.uniqueword" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.chris.uniqueword" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -325,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Main">
+  <component name="RunManager" selected="JUnit.Main.main">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -446,8 +458,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Main" />
         <item itemvalue="JUnit.Main.main" />
+        <item itemvalue="JUnit.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AkkaQuickstart" />
         <item itemvalue="JUnit.AkkaQuickstartTest.testGreeterActorSendingOfGreeting" />
@@ -473,7 +485,10 @@
       <workItem from="1551364941768" duration="16000" />
       <workItem from="1551656967415" duration="814000" />
       <workItem from="1551704353526" duration="1265000" />
-      <workItem from="1551793200346" duration="338000" />
+      <workItem from="1551793200346" duration="6946000" />
+      <workItem from="1551827353084" duration="1219000" />
+      <workItem from="1551873927524" duration="10032000" />
+      <workItem from="1551884353519" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="修改注解">
       <created>1541082891284</created>
@@ -489,43 +504,50 @@
       <option name="project" value="LOCAL" />
       <updated>1541117298799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加测试文本">
+      <created>1551793743505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551793743505</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Main_main - 2018.08.09 at 18h 00m 29s.xml">
+    <history-entry file="Main_main - 2019.03.06 at 23h 08m 15s.xml">
       <configuration name="Main.main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_main - 2018.08.09 at 18h 03m 03s.xml">
+    <history-entry file="Main_main - 2019.03.06 at 23h 08m 57s.xml">
       <configuration name="Main.main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_main - 2018.08.09 at 18h 03m 04s.xml">
+    <history-entry file="Main_main - 2019.03.06 at 23h 09m 30s.xml">
       <configuration name="Main.main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main - 2018.11.01 at 23h 06m 34s.xml">
-      <configuration name="Main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main - 2018.11.01 at 23h 07m 21s.xml">
-      <configuration name="Main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main - 2018.11.01 at 23h 13m 22s.xml">
-      <configuration name="Main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main - 2018.11.01 at 23h 15m 55s.xml">
-      <configuration name="Main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.12.05 at 21h 19m 54s.xml">
+    <history-entry file="Main_main - 2019.03.06 at 23h 19m 12s.xml">
       <configuration name="Main.main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_main - 2018.12.05 at 21h 21m 05s.xml">
+    <history-entry file="Main_main - 2019.03.06 at 23h 20m 46s.xml">
       <configuration name="Main.main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_main - 2019.03.05 at 21h 41m 02s.xml">
+    <history-entry file="Main_main - 2019.03.06 at 23h 25m 08s.xml">
+      <configuration name="Main.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_main - 2019.03.06 at 23h 31m 29s.xml">
+      <configuration name="Main.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_main - 2019.03.06 at 23h 31m 43s.xml">
+      <configuration name="Main.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_main - 2019.03.06 at 23h 32m 30s.xml">
+      <configuration name="Main.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_main - 2019.03.06 at 23h 33m 52s.xml">
       <configuration name="Main.main" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46115000" />
+    <option name="totallyTimeSpent" value="66368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,7 +562,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.1673774" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -550,8 +572,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23719376" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13823858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47438753" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20601337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.23266219" />
@@ -574,7 +596,7 @@
       <window_info anchor="right" id="Database" order="7" weight="0.122068234" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.15138593" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,75 +604,77 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改注解" />
+    <MESSAGE value="添加测试文本" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加测试文本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/lightbend/akka/sample/AkkaQuickstartTest.java</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/chris/uniqueword/Main.java</url>
+          <line>28</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/lightbend/akka/sample/AkkaQuickstartTest.java</url>
-          <line>33</line>
+          <condition expression="Objects.equals(key,&quot;abbreviated&quot;)" language="JAVA" custom="java.util.Objects" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java</url>
+          <line>179</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/lightbend/akka/sample/AkkaQuickstartTest.java</url>
-          <line>26</line>
+          <condition expression="Objects.equals(key,&quot;abbreviated&quot;)" language="JAVA" custom="java.util.Objects" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java</url>
+          <line>101</line>
           <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lightbend/akka/sample/AkkaQuickstart.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lightbend/akka/sample/AkkaQuickstart.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java</url>
-          <line>82</line>
+          <line>119</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="str == null" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="Objects.equals(key,&quot;UK)&quot;)" language="JAVA" custom="java.util.Objects" />
           <url>file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java</url>
-          <line>65</line>
+          <line>78</line>
           <properties />
-          <option name="timeStamp" value="37" />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="workerLineNo == mainLineNo" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java</url>
-          <line>163</line>
+          <condition expression="map.containsKey(&quot;UK)&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java</url>
+          <line>72</line>
           <properties />
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="getID(getSelf().toString())" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
-        <expression-string>str == null</expression-string>
+        <expression-string>map.containsKey(&quot;UK)&quot;)</expression-string>
         <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(key,&quot;UK)&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(key,&quot;abbreviated&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
@@ -659,51 +683,91 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>key == null</expression-string>
+        <expression-string>Objects.equals(key,&quot;&quot;)</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(&quot;worker50&quot;,getID(getSender().toString()))</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(&quot;worker50&quot;,getID(getSelf().toString()))</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(&quot;worker1&quot;,getID(getSender().toString()))</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(&quot;worker1&quot;,getID(getSelf().toString()))</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(getSelf(),&quot;Actor[akka://firstUniqueWord/user/worker7#130557291]&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Objects</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>map.get(key).getCount()</expression-string>
+        <expression-string>map.get(key)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getSelf()</expression-string>
+        <expression-string>map.get(&quot;abbreviated&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getContext().get</expression-string>
+        <expression-string>map.keySet.contains(&quot;abbreviated&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(char) c</expression-string>
+        <expression-string>keySet.contains(&quot;abbreviated&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getID(getSelf().toString())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>worker.hashCode()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CuratorClientFactory.getID(worker.toString())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>worker.toString().substring()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>worker.toString()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sbt-dist/conf/sbtconfig.txt" />
-    <entry file="file://$PROJECT_DIR$/sbt-dist/conf/sbtopts" />
-    <entry file="file://$PROJECT_DIR$/project/build.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar!/akka/testkit/javadsl/TestKit.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar!/akka/testkit/javadsl/TestKit$.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar!/scala/LowPriorityImplicits.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/AbstractProps.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/Props$.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/SumServer.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/UntypedAbstractActor.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/UntypedActor.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/Props.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorRef.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info.java" />
-    <entry file="jar://E:/Program Files/jdk_162/src.zip!/java/util/Objects.java" />
     <entry file="file://$PROJECT_DIR$/sbt-dist/bin/sbt" />
     <entry file="jar://E:/Program Files/jdk_162/src.zip!/java/util/Set.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lightbend/akka/sample/Printer.java" />
@@ -722,13 +786,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/japi/pf/UnitCaseStatement.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar!/scala/PartialFunction.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lightbend/akka/sample/AkkaQuickstartTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -752,48 +809,10 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorSystem.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/AbstractActor.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordsContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StopCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-          <folding>
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,6 +823,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StopCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StartCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -811,17 +837,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java">
+    <entry file="jar://$PROJECT_DIR$/../../repos/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorRefFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="256">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/chris/uniqueword/Main.java">
+    <entry file="jar://$PROJECT_DIR$/../../repos/org/apache/curator/curator-framework/4.1.0/curator-framework-4.1.0.jar!/org/apache/curator/framework/CuratorFramework.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="21" column="5" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="237">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/actor/ActorRef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/org/apache/curator/curator-framework/4.1.0/curator-framework-4.1.0.jar!/org/apache/curator/framework/imps/CuratorFrameworkImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5130">
+          <caret line="368" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/org/apache/curator/curator-framework/4.1.0/curator-framework-4.1.0.jar!/org/apache/curator/framework/EnsureContainers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/com/google/common/collect/Maps.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="262" selection-start-line="262" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/JDK8/jdk/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="210" column="23" selection-start-line="210" selection-start-column="23" selection-end-line="210" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/DistributedCountDownLatch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/CuratorClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/JDK8/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/StatisticsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repos/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar!/akka/japi/pf/UnitCaseStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="e#5576#5577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chris/uniqueword/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="132" selection-start-column="121" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/MainServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -830,11 +987,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/WordsBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+        <state relative-caret-position="378">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chris/uniqueword/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/uniqueword/info/WordInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ public class WordsBuilder {
     /**
      * 每行多少个字符
      */
-    private int wordsCount = 100;
+    private int wordsCount = 200;
 
     /**
      * 文件路径
@@ -57,7 +57,7 @@ public class WordsBuilder {
 
         String[] words = new String[wordsCount];
         int count = 0;
-       while (index < fileLen && count < 100) {
+       while (index < fileLen && count < wordsCount) {
            byte c = buffer.get();
            index = buffer.position();
            if (c == 13 || c == 10 || c == 32) {

@@ -10,21 +10,24 @@ public class WordInfo {
     /**
      * word 第一次出现的行号
      */
-    private int lineNo;
+    private int firstAppearLineNo;
 
     /**
      * word 在第一次出现行中的索引
+     * byte如果每次传输的数字增加，这是要注意容量超量程问题
+     * 修改为char 够用了
+     *
      */
-    private byte index;
+    private char firstAppearIndex;
 
     /**
      * word 出现的次数
      */
     private int count;
 
-    public WordInfo(int lineNo, byte index, int count) {
-        this.lineNo = lineNo;
-        this.index = index;
+    public WordInfo(int firstAppearLineNo, char firstAppearIndex, int count) {
+        this.firstAppearLineNo = firstAppearLineNo;
+        this.firstAppearIndex = firstAppearIndex;
         this.count = count;
     }
 
@@ -37,8 +40,8 @@ public class WordInfo {
             return false;
         }
         WordInfo wordInfo = (WordInfo) o;
-        return lineNo == wordInfo.lineNo &&
-                index == wordInfo.index &&
+        return firstAppearLineNo == wordInfo.firstAppearLineNo &&
+                firstAppearIndex == wordInfo.firstAppearIndex &&
                 count == wordInfo.count;
     }
 
@@ -48,31 +51,19 @@ public class WordInfo {
 
     @Override
     public int hashCode() {
-        return Objects.hash(lineNo, index, count);
+        return Objects.hash(firstAppearLineNo, firstAppearIndex, count);
     }
 
-    public int getLineNo() {
-        return lineNo;
+    public int getFirstAppearLineNo() {
+        return firstAppearLineNo;
     }
 
-    public void setLineNo(int lineNo) {
-        this.lineNo = lineNo;
-    }
-
-    public byte getIndex() {
-        return index;
-    }
-
-    public void setIndex(byte index) {
-        this.index = index;
+    public char getFirstAppearIndex() {
+        return firstAppearIndex;
     }
 
     public int getCount() {
         return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
     }
 
     public void addCount(int count) {
